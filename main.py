@@ -11,7 +11,7 @@ def main():
     st.title("EtikBot")
     st.subheader("En plats att diskutera etiska frågeställningar kring ditt arbete")
 
-    client = OpenAI(api_key=st.session_state.openai_api_key)
+    client = OpenAI(api_key="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")
 
     # List of models
     models = ["gpt-4o-mini", "gpt-4o", "gpt-4-turbo", "gpt-4", "gpt-3.5-turbo"]
@@ -22,7 +22,7 @@ def main():
     # Sidebar with links
     st.sidebar.header("Resurser:")
 
-    st.sidebar.markdown("Här är en samling länkar till resurser där dukan läsa mer om etik för forskning och studentarbeten")
+    st.sidebar.markdown("Här är en samling länkar till resurser där du kan läsa mer om etik för forskning och studentarbeten")
 
     st.sidebar.markdown("[God forskningssed 2024](https://www.vr.se/analys/rapporter/vara-rapporter/2024-10-02-god-forskningssed-2024.html)")
 
