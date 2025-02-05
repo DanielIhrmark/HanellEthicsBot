@@ -22,7 +22,7 @@ def main():
     # Sidebar with links
     st.sidebar.header("Resurser:")
 
-    st.sidebar.markdown("Här är en samling länkar till resurser där dukan läsa mer om etik för forskning och studentarbeten")
+    st.sidebar.markdown("Här är en samling länkar till resurser där du kan läsa mer om etik för forskning och studentarbeten")
 
     st.sidebar.markdown("[God forskningssed 2024](https://www.vr.se/analys/rapporter/vara-rapporter/2024-10-02-god-forskningssed-2024.html)")
 
